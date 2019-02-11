@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74229" started-at="2019-02-08T19:29:14Z" finished-at="2019-02-08T19:30:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74229" started-at="2019-02-08T19:29:14Z" finished-at="2019-02-08T19:30:29Z">
+      <class name="MercuryToursTest.Regresion">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:MercuryToursTest.Regresion@2f686d1f]" name="setUp" is-config="true" duration-ms="572" started-at="2019-02-08T19:29:14Z" finished-at="2019-02-08T19:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="regresion()[pri:0, instance:MercuryToursTest.Regresion@2f686d1f]" name="regresion" duration-ms="72163" started-at="2019-02-08T19:29:15Z" finished-at="2019-02-08T19:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regresion -->
+        <test-method status="PASS" signature="thearDown()[pri:0, instance:MercuryToursTest.Regresion@2f686d1f]" name="thearDown" is-config="true" duration-ms="1442" started-at="2019-02-08T19:30:27Z" finished-at="2019-02-08T19:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thearDown -->
+      </class> <!-- MercuryToursTest.Regresion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

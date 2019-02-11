@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cualquier nombre" >
+  <parameter name="usuario" valor=String "lautigod"/>
+  <parameter name="password" valor=String "123456"/>
+ 	<test name="pruebaTest" >
+
+ 	<classes>
+	<class name="prueba.Clase2"/>
+	</classes>
+</test>
+</suite>

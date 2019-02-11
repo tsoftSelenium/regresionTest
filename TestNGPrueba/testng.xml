@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="tests" thread-count="2">
+<test name="http://testng.org/testng-1.0.dtd">
+  <groups>
+    <run>
+      <include name="sauceYMercury"/>
+    </run>
+  </groups>
+  <classes>
+    <class name="sauceDemo.SauceDemo"/>
+    <class name="MercuryTours.MercuryTest"/>
+  </classes>
+</test>
+</suite>
